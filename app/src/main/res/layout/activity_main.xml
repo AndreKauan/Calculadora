@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/lightGray"
+        android:gravity="end"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:ellipsize="end"
+    />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:textSize="50sp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:ellipsize="end"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:id="@+id/BtnClear"
+            style="@style/stl_specialBtn"
+            android:text="C"
+        />
+
+        <TextView
+            android:id="@+id/BtnOpenParent"
+            style="@style/stl_numberBtn"
+            android:text="("
+            />
+
+        <TextView
+            android:id="@+id/BtnCloseParent"
+            style="@style/stl_numberBtn"
+            android:text=")"
+            />
+
+        <TextView
+            android:id="@+id/BtnDivision"
+            style="@style/stl_operatorBtn"
+            android:text="/"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:id="@+id/Btn7"
+            style="@style/stl_numberBtn"
+            android:text="7"
+            />
+
+        <TextView
+            android:id="@+id/Btn8"
+            style="@style/stl_numberBtn"
+            android:text="8"
+            />
+
+        <TextView
+            android:id="@+id/Btn9"
+            style="@style/stl_numberBtn"
+            android:text="9"
+            />
+
+        <TextView
+            android:id="@+id/BtnMultiply"
+            style="@style/stl_operatorBtn"
+            android:text="X"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:id="@+id/Btn4"
+            style="@style/stl_numberBtn"
+            android:text="4"
+            />
+
+        <TextView
+            android:id="@+id/Btn5"
+            style="@style/stl_numberBtn"
+            android:text="5"
+            />
+
+        <TextView
+            android:id="@+id/Btn6"
+            style="@style/stl_numberBtn"
+            android:text="6"
+            />
+
+        <TextView
+            android:id="@+id/BtnMinus"
+            style="@style/stl_operatorBtn"
+            android:text="-"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:id="@+id/Btn1"
+            style="@style/stl_numberBtn"
+            android:text="1"
+            />
+
+        <TextView
+            android:id="@+id/Btn2"
+            style="@style/stl_numberBtn"
+            android:text="2"
+            />
+
+        <TextView
+            android:id="@+id/Btn3"
+            style="@style/stl_numberBtn"
+            android:text="3"
+            />
+
+        <TextView
+            android:id="@+id/BtnPlus"
+            style="@style/stl_operatorBtn"
+            android:text="+"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <TextView
+            android:id="@+id/Btn0"
+            style="@style/stl_numberBtn"
+            android:layout_width="104dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/BtnPoint"
+            style="@style/stl_numberBtn"
+            android:text=","
+            />
+
+        <TextView
+            android:id="@+id/BtnEquals"
+            style="@style/stl_operatorBtn"
+            android:text="="
+            />
+    </LinearLayout>
+
+</LinearLayout>
